@@ -3,9 +3,13 @@ REST API Server with Express
 A simple product catalog API implementation
 
 GET /products				- list all products
+
 GET /products/:id			- get a specific product details
+
 POST /products				- create a product
+
 PUT /products/:id			- update a product entry
+
 DELETE /products/:id		- update a product entry
 
 Steps to get started
