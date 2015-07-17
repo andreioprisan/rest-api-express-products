@@ -1,0 +1,15 @@
+# 1. run mongodb service
+mongod
+# 2. use products database
+use products;
+
+# 3. insert 4 products
+db.products.insert({sku:"ABC1",name:"Fitbit Flex Wireless Activity + Sleep Wristband, Slate",price:79.98,currency:"$",description:"Never stop moving with Fitbit Flex. Wear this slim, stylish device all the time and get the motivation you need to get out and be more active. It tracks steps, distance, and calories burned and shows you how you're stacking up against your daily goals. At night, it tracks your sleep cycle, helps you learn how to sleep better, and wakes you silently in the morning. Access your stats anytime on your computer, tablet or from leading smartphones – both iPhone and Android. Flex is your perfect companion, it's with you everywhere...even in the shower. Plus, it looks good no matter what you're wearing.",url:"http://www.amazon.com/gp/product/B00BGO0QEO/ref=s9_top_hd_bw_g121_i1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-2&pf_rd_r=1E39449CJTDXZNARWXA0&pf_rd_t=101&pf_rd_p=2071217542&pf_rd_i=219599011"});
+
+db.products.insert({sku:"ABC2",name:"Fitbit Surge Fitness Superwatch, Black, Large",price:246.06,currency:"$",description:"Train smarter and go farther with Surge—a sleek, fitness super watch designed to help you reach your peak performance. With built-in GPS, multisport functionality, and automatic, continuous heart rate, Surge delivers the stats you need to measure your effort and maximize your training time. Add activity tracking, automatic sleep detection, music control, and text and call notifications, and you have everything you need to stay connected, motivated and in the zone—no matter what goal you’re working toward.",url:"http://www.amazon.com/Fitbit-Surge-Fitness-Superwatch-Black/dp/B00N2BWF6Q/ref=lp_219599011_1_5?s=exercise-and-fitness&ie=UTF8&qid=1437064326&sr=1-5"});
+
+db.products.insert({sku:"ABC3",name:"Garmin Vivofit Fitness Band - Black",price:63.99,currency:"$",description:"You already know the active steps you take now can improve your overall wellness today, tomorrow and well into your future. And while it seems simple to get out of that chair more often and move, making it stick is another matter. That’s where vívofit can turn good intentions into lifelong habits. It’s the only fitness band that greets you with a personalized daily goal, tracks your progress and reminds you when it’s time to move.",url:"http://www.amazon.com/Garmin-Vivofit-Fitness-Band-Black/dp/B00HFPOXM4/ref=lp_219599011_1_2?s=exercise-and-fitness&ie=UTF8&qid=1437064326&sr=1-2"});
+
+db.products.insert({sku:"ABC4",name:"UP2 by Jawbone Activity Tracker, Black",price:99.99,currency:"$",description:"Fitness trackers never looked so good. On the outside UP2™ is the thinnest, sleekest, style-savvy tracker out there. On the inside, Smart Coach generates fitness insights and activity plans that make reaching your goals that much easier. And with a full week of battery life you'll be charging less, and living better.",url:"http://www.amazon.com/UP2-Jawbone-Activity-Tracker-Black/dp/B00PHNE4X4/ref=dp_ob_title_wld"});
+
+

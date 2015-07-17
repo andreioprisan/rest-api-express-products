@@ -1,0 +1,25 @@
+{
+	"name": "rest-api-express-products",
+	"version": "0.0.1",
+	"description": "A simple products API service.",
+	"main": "express.js",
+	"scripts": 
+		{
+			"start": "node express.js"
+		},
+	"author": "Andrei Oprisan",
+	"license": "BSD-2-Clause",
+	"dependencies": 
+		{
+			"body-parser": "1.9.2",
+			"express": "4.10.1",
+			"mongoskin": "1.4.4",
+			"morgan": "1.5.0"
+		},
+	"devDependencies": 
+		{
+			"expect.js": "0.3.1",
+			"mocha": "2.0.1",
+			"superagent": "0.20.0"
+		}
+}
